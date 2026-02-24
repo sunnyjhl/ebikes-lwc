@@ -257,9 +257,3 @@ Follow these steps to run the UI tests manually:
     ```sh
     npm run test:ui
     ```
-
-**Note:** if the test runner fails to open Chrome programmatically, update the `chromedriver` dependency to the latest version in `package.json` then, run `npm install` and `npm run test:ui` again.
-
-### Code Tours
-
-Code Tours are guided walkthroughs that will help you understand the app code better. To be able to run them, install the [CodeTour VSCode extension](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour).
